@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+</head>
+<body>
+    <main class="container">
+   <h1>Formularios</h1>
+   <h3>inicido de sesion</h3>
+   <form action="http://localhost:3000/login" method="post">
+      <label for="user">Usuario:</label>
+      <input type="text" id="user" name="user">
+      <br>
+      <label for="pass">Contraseña:</label>
+      <input type="password" id="pass" name="pass">
+      <br>
+      <input type="submit" value="Iniciar sesión">
+       </form>  
+      <br>
+      <form action="http://localhost:3000/registro" method="post">
+        <h3>Registrar</h3>
+      <label for="user">Usuario:</label>
+      <input type="text" id="user" name="user">
+      <br>
+      <label for="pass">Contraseña:</label>
+      <input type="password" id="pass" name="pass">
+      <br>
+      <input type="submit" value="Registrar">
+    </form>
+   
+</main>
+</body>
+</html> 
